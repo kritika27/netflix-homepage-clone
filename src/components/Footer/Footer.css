@@ -1,0 +1,31 @@
+.footer {
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 56px;
+    text-align: left;
+  }
+  
+  .row {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 15px;
+  
+    @media (max-width: 1000px) {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+  
+  li {
+    margin: auto;
+    color: #757575;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  
