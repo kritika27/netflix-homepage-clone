@@ -6,11 +6,11 @@ This is a static clone of Netflix homepage built in ReactJS.
 
 ## Demo
 
-Link 👉 To Be Added
+Link 👉 https://determined-banach-9a10a2.netlify.app/
 
 ## Screenshot
 
-To Be Added
+![screenshot](https://user-images.githubusercontent.com/4997491/99920358-f66a7800-2d48-11eb-8e20-a1b619f35ccd.JPG)
 
 ## Installation
 
