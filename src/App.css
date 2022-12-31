@@ -64,12 +64,13 @@ header{
 }
 
 .showcase-top img {
-  width: 170px;
+  width: 132px;
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 9.5%;
   transform: translate(-50%, -50%);
   margin-left: 0;
+  height:35px;
 }
 
 .showcase-top a {
