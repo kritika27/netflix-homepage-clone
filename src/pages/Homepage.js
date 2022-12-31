@@ -99,6 +99,7 @@ export default function Home() {
     <div>
       <header>
         <div className="showcase-top">
+          
           <img src="https://i.ibb.co/r5krrdz/logo.png" alt="" />
           <Link
             to="/"
