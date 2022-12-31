@@ -30,18 +30,24 @@ img {
 }
 
 .showcase {
+  /* background-blend-mode: darken; */
+  /* filter:brightness(20%); */
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center
-    center/cover;
+  /* background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center */
+  background: url("./images/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg") no-repeat center
+  center/cover;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
   border-bottom: 8px solid #222;
 }
 header{
-  background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center
+  
+  background: url("./images/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg") no-repeat center
     center/cover;
-    z-index: 1;
- 
+    z-index: 1; 
+    opacity:0.8;
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
@@ -298,13 +304,13 @@ header{
 .btn-xl {
   font-size: 2rem;
   padding: 1.5rem 2.1rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .btn-lg {
   font-size: 1rem;
   padding: 0.8rem 1.3rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .btn-icon {
@@ -342,7 +348,7 @@ header{
   .btn-xl {
     font-size: 1.5rem;
     padding: 1.4rem 2rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
 
   .text-xl {
@@ -396,7 +402,7 @@ header{
   .btn-xl {
     font-size: 1rem;
     padding: 1.2rem 1.6rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
 }
 

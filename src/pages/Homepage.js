@@ -15,10 +15,10 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
-  color: white;
+  color: #fff;
   max-width: 640px;
   font-size: 50px;
-  font-weight: 500;
+  font-weight: bold;
   margin: auto;
 
   @media (max-width: 600px) {
@@ -27,9 +27,9 @@ const Title = styled.h1`
 `;
 
 const SubTitle = styled.h2`
-  color: white;
+  color: #fff;
   font-size: 26px;
-  font-weight: normal;
+  font-weight: 400;
   margin: 16px auto;
 
   @media (max-width: 600px) {
@@ -51,8 +51,8 @@ const Button = styled.button`
   align-items: center;
   height: 70px;
   background: #e50914;
+  text-transform:none;
   color: white;
-  text-transform: uppercase;
   padding: 0 32px;
   font-size: 26px;
   border: 0;
@@ -97,7 +97,7 @@ export const Box = styled.div`
 export default function Home() {
   return (
     <div>
-      <header>
+      <header> 
         <div className="showcase-top">
           
           <img src="https://i.ibb.co/r5krrdz/logo.png" alt="" />
@@ -110,7 +110,7 @@ export default function Home() {
           </Link>
         </div>
         <Container>
-          <Title>Unlimited Movies,TV Shows and more.</Title>
+          <Title>Unlimited movies, TV shows and more.</Title>
           <SubTitle>Watch anywhere. Cancel anytime.</SubTitle>
           <Text>
             Ready to watch? Enter your email to create or restart your
@@ -118,7 +118,7 @@ export default function Home() {
           </Text>
           <Box>
             <Input placeholder="Email Address" />
-            <Button>Get Started</Button>
+            <Button>Get Started  {" "}<span><i className="fa fa-chevron-right"></i></span></Button>
           </Box>
         </Container>
       </header>
