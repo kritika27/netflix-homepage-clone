@@ -30,6 +30,7 @@ img {
 }
 
 .showcase {
+  color:#fff;
   /* background-blend-mode: darken; */
   /* filter:brightness(20%); */
   width: 100%;
@@ -38,19 +39,23 @@ img {
   /* background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center */
   background: url("./images/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg") no-repeat center
   center/cover;
-    background: rgba(0,0,0,.4);
+    }
+header{
+  color:#fff;
+  background: rgba(0,0,0,.4);
     background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
   border-bottom: 8px solid #222;
-}
-header{
-  
+
   background: url("./images/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg") no-repeat center
     center/cover;
     z-index: 1; 
     opacity:0.8;
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
-
+::placeholder{
+font-size:15px;
+letter-spacing: 1px;
+}
 .showcase::after {
   content: "";
   position: absolute;

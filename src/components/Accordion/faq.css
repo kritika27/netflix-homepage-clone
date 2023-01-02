@@ -10,10 +10,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     transition: all 0.4s ease-out;
+    color:#fff;
   }
   
   .faqs .faq .faq-answer {
-    
+    color:#fff;
     opacity: 0;
     max-height: 0;
     overflow-y: hidden;
@@ -21,17 +22,22 @@
   }
   
   .faqs .faq.open .faq-question {
-  
+    color:#fff;
     margin-bottom: 5px;
   }
   
+  .faqs .faq.open .faq-question::before {
+    color:#fff;
+    /* transform: translateY(-50%) rotate(180deg); */
+  }
+
   .faqs .faq.open .faq-question::after {
-  
+    color:#fff;
     transform: translateY(-50%) rotate(180deg);
   }
   
   .faqs .faq.open .faq-answer {
-    
+    color:#fff;
     max-height: 1000px;
     opacity: 1;
   }

@@ -21,10 +21,13 @@ function Faqcard({ faq, index, toggleFAQ }) {
               padding: "0.8em 1.2em 0.8em 1.2em",
               userSelect: " none",
               alignItems: " center",
+              color:"#fff",
             }}
           >
             {faq.header}
+            <i className="fa fa-plus"></i>
           </p>
+          
         </div>
         <div className="faq-answer">
           <p

@@ -42,14 +42,14 @@ const Input = styled.input`
   width: 100%;
   border: 0;
   padding: 10px;
-  height: 70px;
+  height: 60px;
   box-sizing: border-box;
 `;
 
 const Button = styled.button`
   display: flex;
   align-items: center;
-  height: 70px;
+  height: 60px;
   background: #e50914;
   text-transform:none;
   color: white;
@@ -117,7 +117,7 @@ export default function Home() {
             membership.
           </Text>
           <Box>
-            <Input placeholder="Email Address" />
+            <Input placeholder="Email address" />
             <Button>Get Started  {" "}<span><i className="fa fa-chevron-right"></i></span></Button>
           </Box>
         </Container>
